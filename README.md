@@ -11,6 +11,7 @@ Three symmetric encryption algos were experimented: LEA, TWOFISH and XTEA.
 <br>
 <b> The file is a bit of a mess..Maybe I will tidy it up later ehee </b>
 <br><br>
+
 ## Info on my FYP
 <br>
 <b> Title </b> : Securing Documents using Web-based Encryption Tool<br>
@@ -20,6 +21,7 @@ Three symmetric encryption algos were experimented: LEA, TWOFISH and XTEA.
 <br> Think of it like Google Drive but with extra layers, where you can't open the file if you are not among the selected participants and
 if you do not have the key<br>
 <br><br>
+
 ## Others
 <b> Library used: </b> CryptoPP Library 
 <br> The functions are referenced from their wiki page.
