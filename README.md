@@ -2,7 +2,7 @@
 The experiement part of my FYP. 
 
 ## Introduction
-This invovles the source codes and files that I used for my FYP experimentation phase. <br> 
+This involves the source codes and files that I used for my FYP experimentation phase. <br> 
 
 ## Info on my FYP
 <br>
