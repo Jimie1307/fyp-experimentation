@@ -6,7 +6,7 @@ This involves the source codes and files that I used for my FYP experimentation 
 
 ## Info on my FYP
 <br>
-<b> Title </b> : Seucring Documents using Web-based Encryption Tool<br>
+<b> Title </b> : Securing Documents using Web-based Encryption Tool<br>
 <b> Scope </b> : Symmetric Cryptography <br>
 <b> Target Scope </b> : Lecturers/ Researchers<br>
 <b> Main motivation/objective </b> : <br> Provide a platform that allows lecturers to share documents through a private and secure way. 
