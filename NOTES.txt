@@ -1,0 +1,57 @@
+    /**
+    File source: allows us to read data from a file using BufferedTransformation.
+    BufferedTransformation: the basic unit of data flow in Crypto++. Any object
+    derived from this can be used in Pipelining.
+    Pipelining: a paradigm in Crypto++ that allows data to flow from Source to Sink.
+    "BufferedTransformation provides interface across objects. A generalization of
+    BlockTransformation, StreamTransformation and HashTransformation.
+    **/    
+
+    //true = indicates FileSource should pump all data in source. Read entire file and
+    //pump it to its attached transformation
+    /*
+    cout << "\nReading a txt file as a string: \n" << endl;
+    //syntax: Filesource [declare-variable] ([filename (source)], [true= hard pump (pump all)/ false= soft pump (dont pump all)], [sink])
+    FileSource file("text-test.txt", true, new StringSink(str));
+    cout << str << endl;
+    str = " ";
+
+    cout << "\nReading a txt file as a string but is hex encoded first: \n" << endl;
+    FileSource file2("text-test.txt", true, new HexEncoder(new StringSink(str)));
+
+    cout << "In hexa:" << str << endl;
+
+    str = " ";
+
+    cout << "\nDumping the string in txt file 1 to txt file 2! \n" << endl;
+    FileSource file3("text-test.txt", true, new HexEncoder(new FileSink("text-test2.txt")));
+
+    cout << "\nReading first file:" << endl;
+    FileSource file4("text-test.txt", true, new StringSink(str));
+    cout << str << endl << endl;
+    str = " ";
+
+    cout << "Reading second file:" << endl;
+    FileSource file5("text-test2.txt", true, new StringSink(str));
+    cout << str << endl << endl;
+
+    str = " ";
+
+    //Decode hexa in second txt file
+    cout << "Decoding second file:" << endl;
+    FileSource file6("text-test2.txt", true, new HexDecoder(new StringSink(str)));
+    cout << str << endl << endl;
+    */
+cout << "TEST: Encrypt/Decrypt file using LEA in 1 trial" << endl << endl;
+    try {
+        //EncryptFile("C:\\Users\\wwann\\source\\repos\\learning-FileSource-cryptopp\\dummy-files\\dummy-100kb.pdf", "C:\\Users\\wwann\\source\\repos\\learning-FileSource-cryptopp\\encrypted-dummy-files\\dummy-100kb.lea.enc", "pArkj!m!n13");
+        EncryptFile("stonks.pdf", "dummy-100kb.lea.enc", "pArkj!m!n_13");
+    }
+    catch (const Exception& ex) {
+        cout << "\n\n Something went wrong";
+        cerr << ex.what() << endl;
+
+    }
+
+    cout << "Successful. Check folder!\n Next, testing to encrypt/decrypt using LEA in 100 trials\n";
+    

@@ -1,0 +1,21 @@
+-----------------------------
+
+
+It took 0.185 seconds to do 100 trials [CPU clock]
+
+
+It took 0.185501 seconds to do 100 trials [Wall clock]
+-----------------------------
+
+
+It took 0.107 seconds to do 100 trials [CPU clock]
+
+
+It took 0.106712 seconds to do 100 trials [Wall clock]
+-----------------------------
+
+
+It took 0.116 seconds to do 100 trials [CPU clock]
+
+
+It took 0.115658 seconds to do 100 trials [Wall clock]
